@@ -1,6 +1,6 @@
 {
 	"name": "typed-binary-json-browser",
-	"version": "1.11.1",
+	"version": "1.12.1",
 	"description": "Browser support for TBJSON.",
 	"author": "Jeff Seaman",
 	"contributors": [
@@ -12,8 +12,8 @@
 		"prepare": "browserify src/index.js -s Tbjson -o lib/Tbjson.js"
 	},
 	"devDependencies": {
-		"browserify": "^16.3.0",
-		"typed-binary-json": "^1.11.1"
+		"browserify": "^16.5.0",
+		"typed-binary-json": "^1.12.1"
 	},
 	"repository": {
 		"type": "git",
