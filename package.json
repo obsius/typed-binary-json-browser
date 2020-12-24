@@ -1,6 +1,6 @@
 {
 	"name": "typed-binary-json-browser",
-	"version": "1.17.3",
+	"version": "1.17.4",
 	"description": "Browser support for TBJSON.",
 	"homepage": "https://github.com/obsius/typed-binary-json-browser",
 	"author": "Jeff Seaman <mr.jeffrey.seaman@gmail.com> (https://www.ngc6822.com)",
@@ -13,8 +13,8 @@
 		"prepare": "browserify src/index.js -s Tbjson -o lib/index.js"
 	},
 	"devDependencies": {
-		"browserify": "^16.5.2",
-		"typed-binary-json": "^1.17.3"
+		"browserify": "^17.0.0",
+		"typed-binary-json": "^1.17.4"
 	},
 	"keywords": [
 		"json",
